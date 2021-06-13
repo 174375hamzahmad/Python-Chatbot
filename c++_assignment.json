@@ -1,0 +1,122 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" ],
+      "responses": [ "Hello!", "Good to see you again!", "Hi there, how can I help?" ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day" ],
+      "responses": [ "Sad to see you go :(", "Talk to you later", "Goodbye!" ],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [ "how old", "what is your age", "how old are you", "age?" ],
+      "responses": [ "I am 21 years old!", "21 years young!" ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should I call you", "whats your name?" ],
+      "responses": [ "You can call me hamza", "I'm hamza!" ],
+      "context_set": ""
+    },
+    {
+      "tag": "languages",
+      "patterns": [ "Tell me some programming languages", "coding languages", "list of languages" ],
+      "responses": [ "python,c++,java,javascript,c,c#,php,swift,sql,go" ],
+      "context_set": ""
+    },
+    {
+      "tag": "softwares",
+      "patterns": [ "what are some coding softwares", "tell me about ides", "where to write code?" ],
+      "responses": [ "visual studio, eclipse, dev c++" ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [ "what is programming?", "define programming" ],
+      "responses": [ "Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++." ],
+      "context_set": ""
+    },
+    {
+      "tag": "purpose",
+      "patterns": [ "why were you made?", "introduce yourself" ],
+      "responses": [ "i was made to help you in c++ assignments" ],
+      "context_set": ""
+    },
+    {
+      "tag": "functions",
+      "patterns": [ "how to write c++ functions?", "what are c++ functions" ],
+      "responses": [ "https://www.geeksforgeeks.org/functions-in-c/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "first program",
+      "patterns": [ "how can i write a program?", "how to write my first ever c++ code" ],
+      "responses": [ "https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Input / Output",
+      "patterns": [ "How to take input from user?", " How can we display our code output on screen" ],
+      "responses": [ "https://www.geeksforgeeks.org/basic-input-output-c/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Operators",
+      "patterns": [ "What are some operators used in c++?", " How to do mathematical manipulation or calculation?" ],
+      "responses": [ "https://www.geeksforgeeks.org/operators-c-c/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Loops",
+      "patterns": [ "How to write loops in c++?" ],
+      "responses": [ "https://www.geeksforgeeks.org/loops-in-c-and-cpp/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "conditional",
+      "patterns": [ "How to write conditional statements?" ],
+      "responses": [ "https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "switch statement",
+      "patterns": [ "How to write switch statement?","how to use switch statement" ],
+      "responses": [ "https://www.geeksforgeeks.org/switch-statement-cc/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "data structure",
+      "patterns": [ "how to store and retrieve data?" ],
+      "responses": [ "https://www.geeksforgeeks.org/data-structures/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "pointers",
+      "patterns": [ "how to play with pointers?"," how to use pointers?" ],
+      "responses": [ "https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "strings",
+      "patterns": [ "how to manipulate strimgs?", "how to use strings " ],
+      "responses": [ "https://www.geeksforgeeks.org/c-string-class-and-its-applications/" ],
+      "context_set": ""
+    },
+    {
+      "tag": "OOP",
+      "patterns": [ "what is oop?","what is object oriented programming","explain oop a bit?" ],
+      "responses": [ "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/" ],
+      "context_set": "\""
+    }
+
+
+
+
+  ]
+}
